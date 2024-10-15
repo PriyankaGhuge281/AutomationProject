@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Testuser1">
+   <parameter name="firstName" value="Priyanka"></parameter>
+   <parameter name="lastName" value="Ghuge"></parameter>
+   <parameter name="mobnum" value="9999999999"></parameter>
+    <classes>
+      <class name="crossBrowserTesting.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="Testuser2">
+   <parameter name="firstName" value="Viraj"></parameter>
+   <parameter name="lastName" value="Ghuge"></parameter>
+   <parameter name="mobnum" value="9999999888"></parameter>
+    <classes>
+      <class name="crossBrowserTesting.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
